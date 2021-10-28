@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #F7CED7FF;
+    /* background-color: black; */
+}
+
+.navbar-toggler{
+    color: white;
+    background-color: black;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    background-color: black;
+}
+
+.navbar-nav li a{
+    color: #3C1053FF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.jumbotron{
+    background-color: #F1F3FFFF;
+    color: #3C1053FF;
+}
+.hobbies{
+    color: #3C1053FF;
+}
+
+
+.advance{
+    height: 500px;
+    width: 500px;
+}
+
+.leftcolumn {
+    width: 75%;
+    display: block;
+    margin: 0;
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .about{
+      height: 70vh;
+  }
